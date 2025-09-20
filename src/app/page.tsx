@@ -1,16 +1,17 @@
-import { Banner } from "@/components/Banner";
-import { Navbar } from "@/components/Navbar";
-import { Hero } from "@/components/Hero";
-import { LogoTicker } from "@/components/LogoTicker";
-import { Features } from "@/components/Features";
-import { ProductShowcase } from "@/components/ProductShowcase";
-import { FAQs } from "@/components/FAQs";
-import { CallToAction } from "@/components/CallToAction";
-import { Footer } from "@/components/Footer";
+import { ProductShowcase } from "@/pages/ProductShowcase";
+import { Banner } from "@/pages/Banner";
+import { Features } from "@/pages/Features";
+import { Hero } from "@/pages/Hero";
+import { LogoTicker } from "@/pages/LogoTicker";
+import { Navbar } from "@/pages/Navbar";
+import { FAQs } from "@/pages/FAQs";
+import { CallToAction } from "@/pages/CallToAction";
+import { Footer } from "@/pages/Footer";
 
 export default function Home() {
   return (
     <>
+      
       <Banner />
       <Navbar />
       <Hero />
